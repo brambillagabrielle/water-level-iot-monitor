@@ -8,7 +8,7 @@ The project consists of a **water level monitor using an Arduino board with AWS 
 
 For this purpose, an **ultrasonic sensor** was used to calculate the water level at regular intervals. The collected metrics are passed to a **Python application** that sends the data to the **SQS messaging service on AWS**.
 
-Data processing is handled by a **Lambda function*, which subscribes to the queue topic to receive the collected metrics. The function sends an **email through an SNS topic** if a change is detected in the water level, and the collected data is also recorded in a **DynamoDB table for historical records**.
+Data processing is handled by a **Lambda function**, which subscribes to the queue topic to receive the collected metrics. The function sends an **email through an SNS topic** if a change is detected in the water level, and the collected data is also recorded in a **DynamoDB table for historical records**.
 
 ## Project Structure
 

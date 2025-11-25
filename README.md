@@ -39,7 +39,7 @@ Data processing is handled by a **Lambda function**, which subscribes to the que
                          |   +-------+                       |
                          |       |                           |
                          |   +-------+                       |
-                         |   |Lambda|                       |
+                         |   |Lambda |                       |
                          |   +-------+                       |
                          |       ├─────────────┐             |
                          |       |             |             |
